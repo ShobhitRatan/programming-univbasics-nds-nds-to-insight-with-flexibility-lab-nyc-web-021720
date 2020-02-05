@@ -50,7 +50,7 @@ def movies_with_director_key(name, movies_collection)
   # movie_with_director_name method
   movies = []
   x = 0
-  while x < movies.collection.length do
+  while x < movies_collection.length do
     movies.append(movie_with_director_name(name, movies_collection[x]))
     x += 1
   end
