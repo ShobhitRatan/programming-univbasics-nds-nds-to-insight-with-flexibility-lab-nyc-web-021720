@@ -76,7 +76,7 @@ def gross_per_studio(collection)
     if !n_h[collection[x][:studio]]
       n_h[collection[x][:studio]] = collection[x][:worldwide_gross]
     else
-      n_h[collection[i][:studio]] += collection[x][:worldwide_gross]
+      n_h[collection[x][:studio]] += collection[x][:worldwide_gross]
     end
     x += 1
   end
